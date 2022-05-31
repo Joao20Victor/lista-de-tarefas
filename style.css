@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: url(casa.png);
+    
+}
+input{
+ background-color: #655F91;
+ color: black;
+ border-radius: 7px;
+
+}
+::placeholder{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+button{
+    color: red;
+  background-color: rgba(255, 255, 255, 0);
+  border-color: rgba(255, 255, 255, 0);
+    font-size: larger
+
+}
+#botao1{
+    background-color: #655F91;
+    border-radius: 8px;
+    font-size: larger;
+    color: black;
+    height: 25px;
+}
+#botao1:hover{
+    box-shadow: #433f61 2px 2px 2px; 
+}
+
+ul{
+   flex-direction: column;
+   
+}
+li{
+     font-family: 'Times New Roman', Times, serif;
+     color: black;
+
+ }
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+div{
+    border-radius: 15px;
+    background-color: #473b5b7c ;
+    padding: 20px;
+    height: 300px;
+    overflow: auto;
+    ;  
+}
